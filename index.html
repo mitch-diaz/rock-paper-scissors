@@ -12,21 +12,31 @@
 
   <div class="container">
 
-    <h1>Rock, Scissors, Paper</h1>
+    <h1 >Rock, Scissors, Paper</h1>
+
+    <div class="result-Msg">
+      <span id="message"></span>
+    </div>
 
     <div class="images-container">
 
-      <div class="image-frame-1">
-        <div class="image-box-1"></div>
+      <div id="player1-frame">
+        <div class="image-div" id="player1-choice"></div>
       </div>
 
-      <div class="image-frame-2">
-        <div class="image-box-2"></div>
+      <div id="player2-frame">
+        <div class="image-div" id="player2-choice"></div>
       </div>
 
     </div>
+    <div class="btn-container">
+      <button class="btn" id="player1-rsp" >Player 1</button>
+      <button class="btn" id="player2-rsp" >Player 2</button>
+    </div>
 
-    <button class="btn" >Play</button>
+    <div>
+      <button class="resetBtn">New Game</button>
+    </div>
 
   </div>
   
