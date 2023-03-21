@@ -43,21 +43,23 @@ div .result-Msg {
   height: 300px;
 }
 
-#player1-frame {
+.player1-frame {
   width: 220px;
   height: 220px;
   border: 1px solid #e0e0e0;
   border-radius: 50%;
+  background-color: #f0f0f0;
 }
 
-#player2-frame {
+.player2-frame {
   width: 220px;
   height: 220px;
   border: 1px solid #e0e0e0;
   border-radius: 50%;
+  background-color: #f0f0f0;
 }
 
-.image-div {
+/* .image-div {
   position: relative;
   top: 10px;
   left: 10px;
@@ -65,11 +67,11 @@ div .result-Msg {
   height: 200px;
   border: 1px solid #e0e0e0;
   border-radius: 100px;
-}
+} */
 
 /* Styles applied to img tags when added to the DOM */
-.image-div img {
-  width: 200px;
+.player1-frame, .player2-frame, img {
+  width: 220px;
   border-radius: 50%;
 }
 
@@ -81,24 +83,32 @@ div .result-Msg {
 
 .btn {
   margin-top: 20px;
-  width: 45%;
+  width: 35%;
   font-size: 16px;
-  background-color: transparent;
-  color: #333;
+  background-color: #3F7FBF;
+  color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
 }
 
+.btn:hover {
+  background-color: #6792bd;
+}
+
 .resetBtn {
   margin-top: 20px;
   width: 100%;
   font-size: 16px;
-  background-color: transparent;
-  color: #333;
+  background-color: #494949;
+  color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
+}
+
+.resetBtn:hover {
+  background-color: #6a6a6a;
 }
