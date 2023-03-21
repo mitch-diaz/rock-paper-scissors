@@ -97,6 +97,11 @@ div .result-Msg {
   background-color: #6792bd;
 }
 
+.pressed {
+  background-color: '#e0e0e0';
+  color: '#636363';
+}
+
 .resetBtn {
   margin-top: 20px;
   width: 100%;
